@@ -84,7 +84,7 @@ let beta = [{"label":"1", "value", 199.0},{"label":"2", "value", 179.0},...,{"la
 
 ## Download
 
-No binary yut
+No binary yet
 
 ## Installing svelte tiny linked cards
 
