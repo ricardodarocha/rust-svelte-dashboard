@@ -21,7 +21,7 @@ A scaffold of Svelte Dashboard and Rust
   <a href="#license">License</a>
 </p>
 
-![screenshot](img/screenshot.gif)
+![screenshot](dashboard.PNG)
 
 ## Introduction
 
