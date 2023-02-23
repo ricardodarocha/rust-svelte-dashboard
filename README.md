@@ -159,10 +159,10 @@ export default writable(0)
 
 ## References
 
-This software uses [Svelte]()
-This software uses [svelte-tiny-linked-charts]
-This software was powered with [Vite]
-
+This software uses [Svelte](svelt.dev)  
+This software uses [svelte-tiny-linked-charts](https://www.npmjs.com/package/svelte-tiny-linked-charts)  
+This software was powered with [Vite](vitejs.dev)  
+  
 ## Resources
 
 web components
