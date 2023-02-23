@@ -1,0 +1,26 @@
+.history/
+# Logs
+dash/logs
+dash/*.log
+dash/npm-debug.log*
+dash/yarn-debug.log*
+dash/yarn-error.log*
+dash/pnpm-debug.log*
+dash/lerna-debug.log*
+
+dash/node_modules
+dash/dist
+dash/dist-ssr
+dash/*.local
+
+# Editor directories and files
+dash/.vscode/*
+dash/!.vscode/extensions.json
+dash/.idea
+dash/.DS_Store
+dash/*.suo
+dash/*.ntvs*
+dash/*.njsproj
+dash/*.sln
+dash/*.sw?
+api/target/

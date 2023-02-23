@@ -35,11 +35,12 @@ Svelte is one of the lightfull frontend layers you can use. In this example we u
 
 ## How to try this
 
-Firs run the api in port 8080.
-You can see a mock [here]() 🚧 _soon_
 
-Clone this repositorio [Git](https://github.com/ricardodarocha/rust-svelte-dashboard.git) 
-Run `cargo check cargo run`
+1. First clone this repository [Git](https://github.com/ricardodarocha/rust-svelte-dashboard.git) which has two layers
+   1. api - provides http data
+   2. dash - uses svelte to render a tiny dashboard
+2. Go to api and run the server, you will need to compile it first using cargo run (Rust)
+3. Go to dash and run the client
 
 ```bash
 # Clone this repository
@@ -51,13 +52,21 @@ $ cd rust-svelte-dashboard
 # Open with VSCode
 $ code .
 
-# install and run
-cd rust-svelte-dashboard/
+# I suggest you open two terminal windows
+
+# install and run the server
+cd api
+cargo check
+cargo run
+
+# install and run the client
+cd dash
 npm install
 npm run dev
 ```
 
-App will run at port 3000
+Dash will run at port 3000
+Api will run at port 3001
 
 ## Routes
 
