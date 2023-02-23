@@ -47,7 +47,8 @@ Svelte is one of the lightfull frontend layers you can use. In this example we u
 $ git clone https://github.com/ricardodarocha/rust-svelte-dashboard.git
 
 # Go into the repository
-$ cd rust-svelte-dashboard
+$ cd rust-svelte-dashboard/api/ #to run api 
+$ cd rust-svelte-dashboard/dash/ #to run frontend
 
 # Open with VSCode
 $ code .
@@ -55,12 +56,12 @@ $ code .
 # I suggest you open two terminal windows
 
 # install and run the server
-cd api
+cd api/
 cargo check
 cargo run
 
 # install and run the client
-cd dash
+cd dash/
 npm install
 npm run dev
 ```
