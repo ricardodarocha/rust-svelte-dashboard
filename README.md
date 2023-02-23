@@ -35,7 +35,7 @@ Svelte is one of the lightfull frontend layers you can use. In this example we u
 
 ## How to try this
 
-Firs run the api in port 8080.
+First run the api in port 8080.
 You can see a mock [here]() 🚧 _soon_
 
 Clone this repositorio [Git](https://github.com/ricardodarocha/rust-svelte-dashboard.git) 
