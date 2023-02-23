@@ -8,7 +8,7 @@
 </h1>
 
 <h4 align="center">About  </p>
-An example of using bitflags - boolean operations between bits, the variable as integer (usize)
+A scaffold of Svelte Dashboard and Rust
 
 
 
@@ -25,7 +25,7 @@ An example of using bitflags - boolean operations between bits, the variable as 
 
 ## Introduction
 
-You can have bit operations beteen two numbers (usize) using the native cast to binary {:0b0}
+Svelte is one of the lightfull frontend layers you can use. In this example we use Svelte to render some data provided by Rust actix server
 
 **Example**
 ```rust
@@ -35,22 +35,22 @@ You can have bit operations beteen two numbers (usize) using the native cast to 
 
 ## How to use
 
-Clone this repositorio [Git](https://github.com/ricardodarocha/rust-bitflags.git) 
+Clone this repositorio [Git](https://github.com/ricardodarocha/rust-svelte-dashboard.git) 
 Run `cargo check cargo run`
 
 ```bash
 # Clone this repository
-$ git clone https://github.com/ricardodarocha/rust-bitflags.git
+$ git clone https://github.com/ricardodarocha/rust-svelte-dashboard.git
 
 # Go into the repository
-$ cd rust-bitflags
+$ cd rust-svelte-dashboard
 
 # Open with VSCode
 $ code .
 
 # install and run
-$ cargo check
-$ cargo run 
+$ yarn
+$ yarn dev
 ```
 
 ## Download
@@ -59,17 +59,13 @@ No binary yut
 
 ## Credits
 
-This software uses pure Rust language
-
-- [sqlx](https://docs.rs/sqlx/latest/sqlx)
-- [rocket](https://crates.io/crates/rocket)
+This software uses Svelte
 
 ## Resources
 
-bit operations
-Operator Overloading to implement BitOr for a struct
-Operator Overloading to implement BitOr for usize
-
+web components
+basic java script
+dashboard
 
 ## Related
 
